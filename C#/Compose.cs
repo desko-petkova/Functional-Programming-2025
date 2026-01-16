@@ -50,7 +50,7 @@ namespace ComposeFunc
             // Извикване на Compose с анонимни функции
             var caloriesAnonymous = Compose(
                 x => x / 200,
-                // Тук е нужно да се отучни, какви данни се приемат и какво се връща
+                // Тук е нужно да се уточни, какви данни се приемат и какво се връща
                 Compose<double, double, double>( 
                     x => x * time,
                     x => x * kg)
