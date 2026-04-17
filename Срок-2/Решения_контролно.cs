@@ -51,6 +51,9 @@ namespace Resheniya
             //1
             var words = new List<string> { "Sofia", "more", "Sun", "sky", "Code" };
 
+           // var upperChars = Filter(words, w=> char.IsUpper(w[0]);
+           // var lengthWords = Map(upperChars, w=>w.Length);
+           // var all = Fold(lengthWords,0,(acc,x) => acc +x);
             var result =
                 Fold(
                     Map(
